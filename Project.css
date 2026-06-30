@@ -1,0 +1,124 @@
+body{
+    background-color: #f4f6f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: #003CFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-underline-position: auto;
+    text-shadow: 2px 2px 5px #003CFF;
+    text-align: center;
+}
+
+#P1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Links{
+    font-family: fantasy;
+    color: black;
+}
+
+h2{
+    color: rgb(85, 1, 18);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+blockquote{
+    font-size: larger;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    background-color: #003CFF;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.players{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Player-Card{
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid #003CFF;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.Player-Card h3{
+    color: #003CFF;
+    margin-bottom: 15px;
+}
+
+.Player-Card:hover{
+    transform: translateY(-8px) scale(1.02);
+}
+
+table{
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #dbe8ff;
+}
+
+.win{
+    color: green;
+    font-weight: bold;
+}
+
+.lose{
+    color: red;
+    font-weight: bold;
+}
+
+.draw{
+    color: #5EAAFF;
+    font-weight: bold;
+}
+
+#Links{
+    text-align: center;
+}
+
+sup{
+    color: red;
+}
+
+.hr{
+    width: 150px; margin-left: 0;
+}
+
+.hr-center {
+    width: 350px;
+    margin: 0 auto;
+}
